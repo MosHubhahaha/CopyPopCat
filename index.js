@@ -9,7 +9,7 @@ image_content.addEventListener('click', () => {
     image_content.src = "./images/cat_2.jpg";
     
 
-    clickSound.currentTime = 0;
+    clickSound.currentTime = 0.1;
     clickSound.play();
 
     setTimeout(() => {
